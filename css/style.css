@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+html {
+    font-size: 1px;
+}
+
+/* header */
+.container-fluid {
+    background-color: #35BFFE;
+    width: 100%;
+}
+
+.navbar-brand {
+    width: 96px;
+    height: 70px;
+    margin-left: 110px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.navbar-expand-lg .navbar-nav {
+    font-size: 16rem;
+}
+
+.navbar-nav {
+    justify-content: space-evenly;
+    width: 90%;
+    margin-top: 10px;
+}
+
+img.icons {
+    width: 30px;
+    height: 35px;
+    display: inline;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .show>.nav-link {
+    font-weight: 600;
+}
+
+/*hero-section*/
+main .hero img {
+    align-content: center;
+    margin-left: 110px;
+    width: 80%;
+    padding-top: 48px;
+    border-radius: 20px;
+}
+
+/* seccion-1 */
+main h4 {
+    font-size: 23rem;
+    text-align: left;
+    font-weight: 600;
+    color: black;
+    padding-bottom: 48px;
+    padding-top: 48px;
+    display: flex;
+    justify-content: center;
+}
+
+main h1 {
+    font-weight: 600;
+    font-size: 23rem;
+    color: #000;
+    text-align: left;
+    padding-bottom: 48px;
+    padding-top: 48px;
+    display: flex
+;
+    justify-content: center;
+}
+main section.seccion-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+main section.seccion-1 div {
+    background-color: #ffff;
+    box-shadow: 0px 0px 5px 3px #00000046;
+    padding: 20px;
+    border-radius: 100%;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main section.seccion-1 img {
+    width: 90px;
+    height: 90px;
+}
+
+/* seccion-2 */
+
+main section.seccion-2 {
+    display: grid;
+    width: 85%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 548px 548px 548px;
+    row-gap: 83px;
+    column-gap: 48px;
+    margin-top: 200px;
+    margin-left: 110px;
+    height: 1250px;
+}
+main h4.non-grid-item {
+    position: absolute;
+    font-weight: 600;
+    font-size: 25rem;
+    color: #000;
+    padding-bottom: 48px;
+    padding-top: 48px;
+    display: flex
+}
+
+h4.non-grid-item {
+    position: absolute;
+    top: 1000px;
+    font-size: 25rem;
+    font-weight: 600;
+    color: black;
+    padding-bottom: 48px;
+    padding-top: 48px;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 110px;
+}
+
+main section div.productos {
+    box-shadow: 0px 0px 5px 3px #00000046;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.productos img {
+    height: 329px;
+    border-radius: 40px;
+}
+
+img.img-fixe {
+    width: 190px;
+    border-radius: 40px;
+}
+
+
+div.productos div.text {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 15px;
+    width: 228px;
+}
+
+div.text h3 {
+    font-size: 12rem;
+    font-weight: 300;
+}
+
+div.text h2 {
+    font-size: 16rem;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+main section div.text h4 {
+    font-size: 22rem;
+    font-weight: 600;
+    height: 5px;
+    padding-top: 15px;
+}
+h3.button-1 {
+    font-weight: 500;
+    font-size: 18rem;
+    color: white;
+    margin-top: 10px;
+    width: 80%;
+    justify-content: space-around;
+    background-color: #35BFFE;
+    border-radius: 14px;
+    height: 59px;
+    text-align: center;
+    padding-top: 17px;
+    margin-bottom: 30px;
+}
+
+
+/* footer */
+footer {
+    width: 100%;
+    height: 238px;
+    background-color: #35BFFE;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 66px;
+}
+
+footer section {
+    font-size: 16rem;
+    color: #ffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40px;
+}
+
+footer section h4 {
+    font-size: 18rem;
+    font-weight: 600;
+    color: #ffff;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+footer section ul.rrss {
+    width: 176px;
+    height: 86px;
+    display: grid;
+    grid-template-columns: 0fr 1fr 1fr 1fr 1fr;
+    row-gap: 10px;
+}
+
+ul.rrss li h4 {
+    position: absolute;
+    top: auto;
+}
+
+footer section li.img-rrss {
+    margin-top: 40px;
+}
